@@ -1,1 +1,72 @@
-
+/* Punto 1*/
+body {
+    background-color: #222;
+    color: #e66;
+}
+/* Punto 2 */
+h1{
+    align-self: center;
+}
+/* Punto 3 */
+p{
+    font-family: sans-serif;
+}
+/* Punto 4*/
+h1,h2,h3{
+    color: #eee;
+}
+/* Punto 5*/
+strong {
+    border-bottom: white;
+}
+/* Punto 6*/
+.the-force{
+    background-color: #444;
+    font-weight: bold;
+}
+/* Punto 7*/
+.light-side{
+    color: #66f;
+}
+.dark-side{
+    color: #f33;
+}
+/* Punto 8*/
+#og-trilogy{
+     list-style-type: circle;
+}
+/* Punto 9*/
+ul:nth-of-type(2) {
+    padding-left: 40px; 
+}
+/* Punto 10*/
+ul:nth-of-type(3) li:last-child {
+    margin-top: 15px;
+}
+/* Punto 11*/
+h1, h2, h3{
+    text-transform: uppercase;
+}
+/* Punto 12*/
+p:first-of-type::first-line {
+    color: #efe; 
+}
+/* Punto 13*/
+h1:hover{
+    color:#a02e2e;
+}
+/* Punto 14*/
+a:visited{
+    color:pink
+}
+/* Punto 15*/
+a:not([href]) {
+    font-style: italic;
+}
+/* Punto 16*/
+.movies-list li:nth-child(odd) {
+    background-color: #111111;
+}
+.movies-list li:nth-child(even) {
+    background-color: #333333;
+}
