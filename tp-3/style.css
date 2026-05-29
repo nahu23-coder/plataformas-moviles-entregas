@@ -5,7 +5,7 @@ p {
   font-family: serif;
 }
 #primer-parrafo{
-  backround-color: #CEE;
+  background-color: #CEE;
 } 
 #primer-parrafo em{
   color: #933;
@@ -17,7 +17,7 @@ p.fuente{
   opacity: 100%;
 }
 p:not([id]){
-  backround-color: rgba(190, 120, 240, 0.6);
+  background-color: rgba(190, 120, 240, 0.6);
 }
 p.fuente{
   color: #000;
