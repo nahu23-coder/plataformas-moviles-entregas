@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 3</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#e9e9e9;
+        }
+
+        .marco{
+            border:15px solid #c8c8c8;
+            border-radius:10px;
+            background:white;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        .content{
+            padding:40px 10px;
+            text-align:center;
+        }
+
+        .s1 {background:#caa07a;}
+        .s2 {background:#cbbf6a;}
+        .s3 {background:#9fc45b;}
+        .s4 {background:#72d077;}
+        .s5 {background:#84e1bf;}
+        .s6 {background:#77bde5;}
+
+        .footer{
+            background:#e39a9a;
+            padding:20px;
+            text-align:right;
+            font-size:2rem;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container marco">
+
+    <div class="row g-0">
+
+        <div class="col-12 col-md-8 col-lg-6 offset-md-2 offset-lg-3">
+            <div class="content s1">sección 1</div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <div class="content s4">sección 4</div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <div class="content s3">sección 3</div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <div class="content s2">sección 2</div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="content s6">sección 6</div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="content s5">sección 5</div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid footer">
+    Layout 3
+</div>
+
+</body>
+</html>
