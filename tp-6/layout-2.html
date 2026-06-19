@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Layout 2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:#efefef;
+        }
+
+        .content{
+            padding:40px 0;
+            text-align:center;
+        }
+
+        .s1 {background:#ca9f77;}
+        .s2 {background:#cbc168;}
+        .s3 {background:#a3c55b;}
+        .s4 {background:#76d179;}
+        .s5 {background:#85e3c1;}
+        .s6 {background:#79bfe5;}
+
+        .marco{
+            background:white;
+            border:15px solid #c8c8c8;
+            border-radius:10px;
+            padding:15px;
+            margin-top:20px;
+        }
+
+        .footer{
+            background:#9cb5df;
+            text-align:right;
+            font-size:2rem;
+            font-weight:bold;
+            padding:20px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container marco">
+
+    <div class="row g-0">
+
+        <div class="col-12 col-md-6 col-lg-5">
+            <div class="content s1">sección 1</div>
+        </div>
+
+        <div class="d-none d-md-block col-md-6 col-lg-7"></div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <div class="content s2">sección 2</div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-4">
+            <div class="content s3">sección 3</div>
+        </div>
+
+        <div class="col-12 col-md-4 col-lg-3">
+            <div class="content s4">sección 4</div>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-5">
+            <div class="content s5">sección 5</div>
+        </div>
+
+        <div class="col-6 col-md-6 col-lg-5">
+            <div class="content s6">sección 6</div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid footer">
+    Layout 2
+</div>
+
+</body>
+</html>
